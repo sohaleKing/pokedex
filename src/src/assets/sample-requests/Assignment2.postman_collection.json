@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "4281a5e8-0431-423d-827c-ced1eb348e98",
+		"name": "Assignment2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "all Pokemons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/pokemon"
+			},
+			"response": []
+		},
+		{
+			"name": "all trainers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/trainer"
+			},
+			"response": []
+		},
+		{
+			"name": "find Pokemon by name/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/pokemon/Venusaur"
+			},
+			"response": []
+		},
+		{
+			"name": "find trainer by name/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/trainer/4"
+			},
+			"response": []
+		},
+		{
+			"name": "capture pokemon by trainer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "localhost:3000/trainer/akram/pokemon/16/capture"
+			},
+			"response": []
+		},
+		{
+			"name": "delete pokemon by name/id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/pokemon/3"
+			},
+			"response": []
+		},
+		{
+			"name": "show the trainer who captured more",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/trainer/soheyl/more-captured/akram/compare"
+			},
+			"response": []
+		},
+		{
+			"name": "add a new special power to pokemon",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:3000/pokemon/3/addPower/water"
+			},
+			"response": []
+		}
+	]
+}
